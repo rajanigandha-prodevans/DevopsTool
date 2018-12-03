@@ -1,0 +1,1 @@
+SELECT SUM(o.weightage), o.question_id FROM devops_assessment.question_option o JOIN devops_assessment.assessment_question c where c.category_id = 3 and c.question_id = o.question_id group by o.question_id;

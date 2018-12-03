@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.prodevans.DevOpsAssessmentTool.service.GetQuestionsByCategoryIdTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-29T12:18:11" hostname="Rajanigandhas-MacBook-Air.local" time="0.052">
+  <properties/>
+  <testcase name="getQuestionsByCategoryId" classname="com.prodevans.DevOpsAssessmentTool.service.GetQuestionsByCategoryIdTest" time="0.052"/>
+  <system-out><![CDATA[29-11-2018 17:48:11.532 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.prodevans.DevOpsAssessmentTool.service.GetQuestionsByCategoryIdTest], using SpringBootContextLoader
+29-11-2018 17:48:11.534 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.prodevans.DevOpsAssessmentTool.service.GetQuestionsByCategoryIdTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+29-11-2018 17:48:11.534 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.prodevans.DevOpsAssessmentTool.service.GetQuestionsByCategoryIdTest]: GetQuestionsByCategoryIdTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+29-11-2018 17:48:11.537 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication for test class com.prodevans.DevOpsAssessmentTool.service.GetQuestionsByCategoryIdTest
+29-11-2018 17:48:11.540 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+29-11-2018 17:48:11.541 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7fcb29eb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7c53207f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@79382fa9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3f3ea5c0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@199c47bd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7ca9dc29, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@44d4e172, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@e8e4c8d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7554534e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@47ae9159, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@241237af, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5804fd84]
+29-11-2018 17:48:11.561 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.transaction.TransactionContext.startTransaction - Began transaction (1) for test context [DefaultTestContext@7687a400 testClass = GetQuestionsByCategoryIdTest, testInstance = com.prodevans.DevOpsAssessmentTool.service.GetQuestionsByCategoryIdTest@11223b7a, testMethod = getQuestionsByCategoryId@GetQuestionsByCategoryIdTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7e7f2cf3 testClass = GetQuestionsByCategoryIdTest, locations = '{}', classes = '{class com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67c965bc, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e40fa62, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7a992351, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3e465b69], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@220c7ad5]; rollback [true]
+Hibernate: 
+    select
+        assessment0_.question_id as question1_3_,
+        assessment0_.question as question2_3_,
+        assessment0_.category_id as category3_3_,
+        assessment0_.question_type_id as question4_3_ 
+    from
+        assessment_question assessment0_ 
+    inner join
+        question_category questionca1_ 
+            on assessment0_.category_id=questionca1_.category_id 
+    where
+        questionca1_.category_id=?
+Hibernate: 
+    select
+        questionca0_.category_id as category1_9_0_,
+        questionca0_.category_name as category2_9_0_ 
+    from
+        question_category questionca0_ 
+    where
+        questionca0_.category_id=?
+Hibernate: 
+    select
+        questionty0_.question_type_id as question1_11_0_,
+        questionty0_.question_type as question2_11_0_ 
+    from
+        question_type questionty0_ 
+    where
+        questionty0_.question_type_id=?
+Hibernate: 
+    select
+        questionty0_.question_type_id as question1_11_0_,
+        questionty0_.question_type as question2_11_0_ 
+    from
+        question_type questionty0_ 
+    where
+        questionty0_.question_type_id=?
+Hibernate: 
+    select
+        questionop0_.question_id as question4_10_0_,
+        questionop0_.question_option_id as question1_10_0_,
+        questionop0_.question_option_id as question1_10_1_,
+        questionop0_.question_id as question4_10_1_,
+        questionop0_.question_option as question2_10_1_,
+        questionop0_.weightage as weightag3_10_1_ 
+    from
+        question_option questionop0_ 
+    where
+        questionop0_.question_id=?
+Hibernate: 
+    select
+        questionop0_.question_id as question4_10_0_,
+        questionop0_.question_option_id as question1_10_0_,
+        questionop0_.question_option_id as question1_10_1_,
+        questionop0_.question_id as question4_10_1_,
+        questionop0_.question_option as question2_10_1_,
+        questionop0_.weightage as weightag3_10_1_ 
+    from
+        question_option questionop0_ 
+    where
+        questionop0_.question_id=?
+Hibernate: 
+    select
+        questionop0_.question_id as question4_10_0_,
+        questionop0_.question_option_id as question1_10_0_,
+        questionop0_.question_option_id as question1_10_1_,
+        questionop0_.question_id as question4_10_1_,
+        questionop0_.question_option as question2_10_1_,
+        questionop0_.weightage as weightag3_10_1_ 
+    from
+        question_option questionop0_ 
+    where
+        questionop0_.question_id=?
+Hibernate: 
+    select
+        questionop0_.question_id as question4_10_0_,
+        questionop0_.question_option_id as question1_10_0_,
+        questionop0_.question_option_id as question1_10_1_,
+        questionop0_.question_id as question4_10_1_,
+        questionop0_.question_option as question2_10_1_,
+        questionop0_.weightage as weightag3_10_1_ 
+    from
+        question_option questionop0_ 
+    where
+        questionop0_.question_id=?
+Hibernate: 
+    select
+        questionop0_.question_id as question4_10_0_,
+        questionop0_.question_option_id as question1_10_0_,
+        questionop0_.question_option_id as question1_10_1_,
+        questionop0_.question_id as question4_10_1_,
+        questionop0_.question_option as question2_10_1_,
+        questionop0_.weightage as weightag3_10_1_ 
+    from
+        question_option questionop0_ 
+    where
+        questionop0_.question_id=?
+Hibernate: 
+    select
+        assessmenq0_.question_id as question1_3_0_,
+        assessmenq0_.question_id as question1_3_1_,
+        assessmenq0_.question as question2_3_1_,
+        assessmenq0_.category_id as category3_3_1_,
+        assessmenq0_.question_type_id as question4_3_1_,
+        questionca1_.category_id as category1_9_2_,
+        questionca1_.category_name as category2_9_2_,
+        questionty2_.question_type_id as question1_11_3_,
+        questionty2_.question_type as question2_11_3_ 
+    from
+        assessment_question assessmenq0_ 
+    left outer join
+        question_category questionca1_ 
+            on assessmenq0_.category_id=questionca1_.category_id 
+    left outer join
+        question_type questionty2_ 
+            on assessmenq0_.question_type_id=questionty2_.question_type_id 
+    where
+        assessmenq0_.question_id=?
+Questions : [AssessmentQuestion [question_id=1, question=How do you plan, prioritize and schedule work?, questionType=QuestionType [question_type_id=1, question_type=single choice question], questionCategory=QuestionCategory [category_id=1, category_name=process_and_culture], questionOptions=[QuestionOption [question_option_id=1, question_option=By feature completion against specifications, weightage=0.2], QuestionOption [question_option_id=2, question_option=In timeboxes such as sprints, weightage=0.25], QuestionOption [question_option_id=3, question_option=We strive for a one-piece flow of product backlog items, stack-ranked, and delivered continuously, weightage=0.5], QuestionOption [question_option_id=4, question_option=We create measurable experiments from hypotheses and use production data to assess results, weightage=0.05], QuestionOption [question_option_id=5, question_option=None of these, weightage=0.0]]], AssessmentQuestion [question_id=2, question=How do development and operations teams collaborate during a production issue?, questionType=QuestionType [question_type_id=2, question_type=multiple choice question], questionCategory=QuestionCategory [category_id=1, category_name=process_and_culture], questionOptions=[QuestionOption [question_option_id=6, question_option=Production incidents are handled by operations staff. Only If all operational procedures have failed to restore service level, then an escalation process may be started on an exception basis to engage developers, weightage=0.25], QuestionOption [question_option_id=7, question_option=Devs and Ops do a joint retrospective to review the root cause of an issue once its resolved. They plan how to prevent a recurrence, weightage=0.25], QuestionOption [question_option_id=8, question_option=They collaborate in real time, in a physical team room/war room or online chat room, IRC, IM, or other messaging channel, weightage=0.25], QuestionOption [question_option_id=9, question_option=Developers rotate on-call duty and, when on duty, are paged to participate without delay in troubleshooting live site incidents related to their area of code, weightage=0.25], QuestionOption [question_option_id=10, question_option=Not applicable because Ops handles production incidents independently, weightage=0.0]]], AssessmentQuestion [question_id=3, question=What are your policies around open source software?, questionType=QuestionType [question_type_id=2, question_type=multiple choice question], questionCategory=QuestionCategory [category_id=1, category_name=process_and_culture], questionOptions=[QuestionOption [question_option_id=11, question_option=Using open source components requires legal review and management approval, weightage=0.1], QuestionOption [question_option_id=12, question_option=We keep a central package store of approved open source components, weightage=0.1], QuestionOption [question_option_id=13, question_option=We automatically scan open source components for vulnerabilities and IP before taking a dependency on them, weightage=0.3], QuestionOption [question_option_id=14, question_option=Our release pipeline automatically scans OSS component versions before every deployment and we remediate any newly discovered vulnerabilities, weightage=0.5], QuestionOption [question_option_id=15, question_option=We do not have a policy about using open source, weightage=0.0]]], AssessmentQuestion [question_id=4, question=Which project development method is getting used by your company?, questionType=QuestionType [question_type_id=1, question_type=single choice question], questionCategory=QuestionCategory [category_id=1, category_name=process_and_culture], questionOptions=[QuestionOption [question_option_id=16, question_option=Water Fall, weightage=0.1], QuestionOption [question_option_id=17, question_option=Water-Scrum-Fall, weightage=0.1], QuestionOption [question_option_id=18, question_option=Agile, weightage=0.5], QuestionOption [question_option_id=19, question_option=Scrum, weightage=0.3], QuestionOption [question_option_id=20, question_option=None, weightage=0.0]]], AssessmentQuestion [question_id=5, question=Do you follow devops culture?, questionType=QuestionType [question_type_id=1, question_type=single choice question], questionCategory=QuestionCategory [category_id=1, category_name=process_and_culture], questionOptions=[QuestionOption [question_option_id=21, question_option=Yes, weightage=1.0], QuestionOption [question_option_id=22, question_option=No, weightage=0.0]]]]
+29-11-2018 17:48:11.611 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.transaction.TransactionContext.endTransaction - Rolled back transaction for test: [DefaultTestContext@7687a400 testClass = GetQuestionsByCategoryIdTest, testInstance = com.prodevans.DevOpsAssessmentTool.service.GetQuestionsByCategoryIdTest@11223b7a, testMethod = getQuestionsByCategoryId@GetQuestionsByCategoryIdTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@7e7f2cf3 testClass = GetQuestionsByCategoryIdTest, locations = '{}', classes = '{class com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67c965bc, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e40fa62, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7a992351, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3e465b69], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.prodevans.DevOpsAssessmentTool.service.GetAllCategoriesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-29T12:18:11" hostname="Rajanigandhas-MacBook-Air.local" time="0.123">
+  <properties/>
+  <testcase name="getAllCountries" classname="com.prodevans.DevOpsAssessmentTool.service.GetAllCategoriesTest" time="0.123"/>
+  <system-out><![CDATA[29-11-2018 17:48:11.378 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.prodevans.DevOpsAssessmentTool.service.GetAllCategoriesTest], using SpringBootContextLoader
+29-11-2018 17:48:11.380 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.prodevans.DevOpsAssessmentTool.service.GetAllCategoriesTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+29-11-2018 17:48:11.381 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.prodevans.DevOpsAssessmentTool.service.GetAllCategoriesTest]: GetAllCategoriesTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+29-11-2018 17:48:11.384 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication for test class com.prodevans.DevOpsAssessmentTool.service.GetAllCategoriesTest
+29-11-2018 17:48:11.387 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+29-11-2018 17:48:11.388 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6949603d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1778f2a9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@34b9f3bb, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4d0ae67f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6fe03f6b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3fdd6584, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@44827def, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e21421e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@305435d6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@64f1871d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@334be369, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@672e76ac]
+29-11-2018 17:48:11.409 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.transaction.TransactionContext.startTransaction - Began transaction (1) for test context [DefaultTestContext@66d7d64f testClass = GetAllCategoriesTest, testInstance = com.prodevans.DevOpsAssessmentTool.service.GetAllCategoriesTest@3864e24a, testMethod = getAllCountries@GetAllCategoriesTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@356c15b testClass = GetAllCategoriesTest, locations = '{}', classes = '{class com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67c965bc, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e40fa62, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7a992351, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3e465b69], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@220c7ad5]; rollback [true]
+Hibernate: 
+    select
+        questionca0_.category_id as category1_9_,
+        questionca0_.category_name as category2_9_ 
+    from
+        question_category questionca0_
+Hibernate: 
+    select
+        assessmenq0_.question_id as question1_3_0_,
+        assessmenq0_.question_id as question1_3_1_,
+        assessmenq0_.question as question2_3_1_,
+        assessmenq0_.category_id as category3_3_1_,
+        assessmenq0_.question_type_id as question4_3_1_,
+        questionca1_.category_id as category1_9_2_,
+        questionca1_.category_name as category2_9_2_,
+        questionty2_.question_type_id as question1_11_3_,
+        questionty2_.question_type as question2_11_3_ 
+    from
+        assessment_question assessmenq0_ 
+    left outer join
+        question_category questionca1_ 
+            on assessmenq0_.category_id=questionca1_.category_id 
+    left outer join
+        question_type questionty2_ 
+            on assessmenq0_.question_type_id=questionty2_.question_type_id 
+    where
+        assessmenq0_.question_id=?
+Hibernate: 
+    select
+        questionop0_.question_id as question4_10_0_,
+        questionop0_.question_option_id as question1_10_0_,
+        questionop0_.question_option_id as question1_10_1_,
+        questionop0_.question_id as question4_10_1_,
+        questionop0_.question_option as question2_10_1_,
+        questionop0_.weightage as weightag3_10_1_ 
+    from
+        question_option questionop0_ 
+    where
+        questionop0_.question_id=?
+Hibernate: 
+    select
+        assessmenq0_.question_id as question1_3_0_,
+        assessmenq0_.question_id as question1_3_1_,
+        assessmenq0_.question as question2_3_1_,
+        assessmenq0_.category_id as category3_3_1_,
+        assessmenq0_.question_type_id as question4_3_1_,
+        questionca1_.category_id as category1_9_2_,
+        questionca1_.category_name as category2_9_2_,
+        questionty2_.question_type_id as question1_11_3_,
+        questionty2_.question_type as question2_11_3_ 
+    from
+        assessment_question assessmenq0_ 
+    left outer join
+        question_category questionca1_ 
+            on assessmenq0_.category_id=questionca1_.category_id 
+    left outer join
+        question_type questionty2_ 
+            on assessmenq0_.question_type_id=questionty2_.question_type_id 
+    where
+        assessmenq0_.question_id=?
+Hibernate: 
+    select
+        questionop0_.question_id as question4_10_0_,
+        questionop0_.question_option_id as question1_10_0_,
+        questionop0_.question_option_id as question1_10_1_,
+        questionop0_.question_id as question4_10_1_,
+        questionop0_.question_option as question2_10_1_,
+        questionop0_.weightage as weightag3_10_1_ 
+    from
+        question_option questionop0_ 
+    where
+        questionop0_.question_id=?
+Hibernate: 
+    select
+        assessmenq0_.question_id as question1_3_0_,
+        assessmenq0_.question_id as question1_3_1_,
+        assessmenq0_.question as question2_3_1_,
+        assessmenq0_.category_id as category3_3_1_,
+        assessmenq0_.question_type_id as question4_3_1_,
+        questionca1_.category_id as category1_9_2_,
+        questionca1_.category_name as category2_9_2_,
+        questionty2_.question_type_id as question1_11_3_,
+        questionty2_.question_type as question2_11_3_ 
+    from
+        assessment_question assessmenq0_ 
+    left outer join
+        question_category questionca1_ 
+            on assessmenq0_.category_id=questionca1_.category_id 
+    left outer join
+        question_type questionty2_ 
+            on assessmenq0_.question_type_id=questionty2_.question_type_id 
+    where
+        assessmenq0_.question_id=?
+Hibernate: 
+    select
+        questionop0_.question_id as question4_10_0_,
+        questionop0_.question_option_id as question1_10_0_,
+        questionop0_.question_option_id as question1_10_1_,
+        questionop0_.question_id as question4_10_1_,
+        questionop0_.question_option as question2_10_1_,
+        questionop0_.weightage as weightag3_10_1_ 
+    from
+        question_option questionop0_ 
+    where
+        questionop0_.question_id=?
+Hibernate: 
+    select
+        assessmenq0_.question_id as question1_3_0_,
+        assessmenq0_.question_id as question1_3_1_,
+        assessmenq0_.question as question2_3_1_,
+        assessmenq0_.category_id as category3_3_1_,
+        assessmenq0_.question_type_id as question4_3_1_,
+        questionca1_.category_id as category1_9_2_,
+        questionca1_.category_name as category2_9_2_,
+        questionty2_.question_type_id as question1_11_3_,
+        questionty2_.question_type as question2_11_3_ 
+    from
+        assessment_question assessmenq0_ 
+    left outer join
+        question_category questionca1_ 
+            on assessmenq0_.category_id=questionca1_.category_id 
+    left outer join
+        question_type questionty2_ 
+            on assessmenq0_.question_type_id=questionty2_.question_type_id 
+    where
+        assessmenq0_.question_id=?
+Hibernate: 
+    select
+        questionop0_.question_id as question4_10_0_,
+        questionop0_.question_option_id as question1_10_0_,
+        questionop0_.question_option_id as question1_10_1_,
+        questionop0_.question_id as question4_10_1_,
+        questionop0_.question_option as question2_10_1_,
+        questionop0_.weightage as weightag3_10_1_ 
+    from
+        question_option questionop0_ 
+    where
+        questionop0_.question_id=?
+Hibernate: 
+    select
+        assessmenq0_.question_id as question1_3_0_,
+        assessmenq0_.question_id as question1_3_1_,
+        assessmenq0_.question as question2_3_1_,
+        assessmenq0_.category_id as category3_3_1_,
+        assessmenq0_.question_type_id as question4_3_1_,
+        questionca1_.category_id as category1_9_2_,
+        questionca1_.category_name as category2_9_2_,
+        questionty2_.question_type_id as question1_11_3_,
+        questionty2_.question_type as question2_11_3_ 
+    from
+        assessment_question assessmenq0_ 
+    left outer join
+        question_category questionca1_ 
+            on assessmenq0_.category_id=questionca1_.category_id 
+    left outer join
+        question_type questionty2_ 
+            on assessmenq0_.question_type_id=questionty2_.question_type_id 
+    where
+        assessmenq0_.question_id=?
+Hibernate: 
+    select
+        questionop0_.question_id as question4_10_0_,
+        questionop0_.question_option_id as question1_10_0_,
+        questionop0_.question_option_id as question1_10_1_,
+        questionop0_.question_id as question4_10_1_,
+        questionop0_.question_option as question2_10_1_,
+        questionop0_.weightage as weightag3_10_1_ 
+    from
+        question_option questionop0_ 
+    where
+        questionop0_.question_id=?
+Hibernate: 
+    select
+        assessmenq0_.question_id as question1_3_0_,
+        assessmenq0_.question_id as question1_3_1_,
+        assessmenq0_.question as question2_3_1_,
+        assessmenq0_.category_id as category3_3_1_,
+        assessmenq0_.question_type_id as question4_3_1_,
+        questionca1_.category_id as category1_9_2_,
+        questionca1_.category_name as category2_9_2_,
+        questionty2_.question_type_id as question1_11_3_,
+        questionty2_.question_type as question2_11_3_ 
+    from
+        assessment_question assessmenq0_ 
+    left outer join
+        question_category questionca1_ 
+            on assessmenq0_.category_id=questionca1_.category_id 
+    left outer join
+        question_type questionty2_ 
+            on assessmenq0_.question_type_id=questionty2_.question_type_id 
+    where
+        assessmenq0_.question_id=?
+Hibernate: 
+    select
+        questionop0_.question_id as question4_10_0_,
+        questionop0_.question_option_id as question1_10_0_,
+        questionop0_.question_option_id as question1_10_1_,
+        questionop0_.question_id as question4_10_1_,
+        questionop0_.question_option as question2_10_1_,
+        questionop0_.weightage as weightag3_10_1_ 
+    from
+        question_option questionop0_ 
+    where
+        questionop0_.question_id=?
+29-11-2018 17:48:11.524 ?[35m[Test worker]?[0;39m ?[1;31mERROR?[0;39m com.prodevans.DevOpsAssessmentTool.category.CategoryService.getAllCategories - Category list[QuestionCategory [category_id=2, category_name=build_process], QuestionCategory [category_id=3, category_name=deployment], QuestionCategory [category_id=4, category_name=infrastructure], QuestionCategory [category_id=6, category_name=monitoring_and_feedback], QuestionCategory [category_id=1, category_name=process_and_culture], QuestionCategory [category_id=5, category_name=technology_and_automation]]
+29-11-2018 17:48:11.529 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.transaction.TransactionContext.endTransaction - Rolled back transaction for test: [DefaultTestContext@66d7d64f testClass = GetAllCategoriesTest, testInstance = com.prodevans.DevOpsAssessmentTool.service.GetAllCategoriesTest@3864e24a, testMethod = getAllCountries@GetAllCategoriesTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@356c15b testClass = GetAllCategoriesTest, locations = '{}', classes = '{class com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67c965bc, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e40fa62, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7a992351, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3e465b69], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

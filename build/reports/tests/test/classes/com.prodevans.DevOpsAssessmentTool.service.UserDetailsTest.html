@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.prodevans.DevOpsAssessmentTool.service.UserDetailsTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.prodevans.DevOpsAssessmentTool.service.UserDetailsTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.prodevans.DevOpsAssessmentTool.service.html">com.prodevans.DevOpsAssessmentTool.service</a> &gt; UserDetailsTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.077s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">checkInvalidUser</td>
+<td class="success">0.028s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">checkValidUser</td>
+<td class="success">0.049s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>29-11-2018 17:48:11.654 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.prodevans.DevOpsAssessmentTool.service.UserDetailsTest], using SpringBootContextLoader
+29-11-2018 17:48:11.655 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.prodevans.DevOpsAssessmentTool.service.UserDetailsTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+29-11-2018 17:48:11.656 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.prodevans.DevOpsAssessmentTool.service.UserDetailsTest]: UserDetailsTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+29-11-2018 17:48:11.659 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication for test class com.prodevans.DevOpsAssessmentTool.service.UserDetailsTest
+29-11-2018 17:48:11.663 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+29-11-2018 17:48:11.667 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@74c85d39, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@75bad322, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7857cee2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@47a065cc, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71b7c994, org.springframework.test.context.transaction.TransactionalTestExecutionListener@52b73743, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1451d329, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@501b5a6a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1fafd294, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@74c9e30d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6e9bae26, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@64596195]
+29-11-2018 17:48:11.687 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.transaction.TransactionContext.startTransaction - Began transaction (1) for test context [DefaultTestContext@30760b97 testClass = UserDetailsTest, testInstance = com.prodevans.DevOpsAssessmentTool.service.UserDetailsTest@188cbbf9, testMethod = checkValidUser@UserDetailsTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@110d32f0 testClass = UserDetailsTest, locations = '{}', classes = '{class com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67c965bc, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e40fa62, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7a992351, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3e465b69], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@220c7ad5]; rollback [true]
+Hibernate: 
+    select
+        companysiz0_.company_size_id as company_1_6_0_,
+        companysiz0_.size as size2_6_0_ 
+    from
+        company_size companysiz0_ 
+    where
+        companysiz0_.company_size_id=?
+Hibernate: 
+    select
+        country0_.country_id as country_1_7_0_,
+        country0_.country_name as country_2_7_0_ 
+    from
+        country country0_ 
+    where
+        country0_.country_id=?
+Hibernate: 
+    select
+        industryty0_.industry_type_id as industry1_8_0_,
+        industryty0_.industry_name as industry2_8_0_ 
+    from
+        industry_type industryty0_ 
+    where
+        industryty0_.industry_type_id=?
+Hibernate: 
+    insert 
+    into
+        user
+        (company_name, company_size_id, country_id, first_name, industry_type_id, last_name, reset_token, user_email, user_password) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+29-11-2018 17:48:11.702 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m com.prodevans.DevOpsAssessmentTool.user.UserRepository.checkValidUser - Checking for valid user test passed
+29-11-2018 17:48:11.734 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.transaction.TransactionContext.endTransaction - Rolled back transaction for test: [DefaultTestContext@30760b97 testClass = UserDetailsTest, testInstance = com.prodevans.DevOpsAssessmentTool.service.UserDetailsTest@188cbbf9, testMethod = checkValidUser@UserDetailsTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@110d32f0 testClass = UserDetailsTest, locations = '{}', classes = '{class com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67c965bc, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e40fa62, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7a992351, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3e465b69], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]
+29-11-2018 17:48:11.738 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.transaction.TransactionContext.startTransaction - Began transaction (1) for test context [DefaultTestContext@30760b97 testClass = UserDetailsTest, testInstance = com.prodevans.DevOpsAssessmentTool.service.UserDetailsTest@1dbc5af0, testMethod = checkInvalidUser@UserDetailsTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@110d32f0 testClass = UserDetailsTest, locations = '{}', classes = '{class com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67c965bc, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e40fa62, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7a992351, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3e465b69], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@220c7ad5]; rollback [true]
+Hibernate: 
+    select
+        companysiz0_.company_size_id as company_1_6_0_,
+        companysiz0_.size as size2_6_0_ 
+    from
+        company_size companysiz0_ 
+    where
+        companysiz0_.company_size_id=?
+Hibernate: 
+    select
+        country0_.country_id as country_1_7_0_,
+        country0_.country_name as country_2_7_0_ 
+    from
+        country country0_ 
+    where
+        country0_.country_id=?
+Hibernate: 
+    select
+        industryty0_.industry_type_id as industry1_8_0_,
+        industryty0_.industry_name as industry2_8_0_ 
+    from
+        industry_type industryty0_ 
+    where
+        industryty0_.industry_type_id=?
+Hibernate: 
+    insert 
+    into
+        user
+        (company_name, company_size_id, country_id, first_name, industry_type_id, last_name, reset_token, user_email, user_password) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    select
+        user0_.user_id as user_id1_13_0_,
+        user0_.company_name as company_2_13_0_,
+        user0_.company_size_id as company_8_13_0_,
+        user0_.country_id as country_9_13_0_,
+        user0_.first_name as first_na3_13_0_,
+        user0_.industry_type_id as industr10_13_0_,
+        user0_.last_name as last_nam4_13_0_,
+        user0_.reset_token as reset_to5_13_0_,
+        user0_.user_email as user_ema6_13_0_,
+        user0_.user_password as user_pas7_13_0_,
+        companysiz1_.company_size_id as company_1_6_1_,
+        companysiz1_.size as size2_6_1_,
+        country2_.country_id as country_1_7_2_,
+        country2_.country_name as country_2_7_2_,
+        industryty3_.industry_type_id as industry1_8_3_,
+        industryty3_.industry_name as industry2_8_3_ 
+    from
+        user user0_ 
+    inner join
+        company_size companysiz1_ 
+            on user0_.company_size_id=companysiz1_.company_size_id 
+    inner join
+        country country2_ 
+            on user0_.country_id=country2_.country_id 
+    inner join
+        industry_type industryty3_ 
+            on user0_.industry_type_id=industryty3_.industry_type_id 
+    where
+        user0_.user_id=?
+29-11-2018 17:48:11.755 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m com.prodevans.DevOpsAssessmentTool.user.UserRepository.checkInvalidUser - Checking for invalid user test passed
+29-11-2018 17:48:11.763 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.transaction.TransactionContext.endTransaction - Rolled back transaction for test: [DefaultTestContext@30760b97 testClass = UserDetailsTest, testInstance = com.prodevans.DevOpsAssessmentTool.service.UserDetailsTest@1dbc5af0, testMethod = checkInvalidUser@UserDetailsTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@110d32f0 testClass = UserDetailsTest, locations = '{}', classes = '{class com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67c965bc, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e40fa62, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7a992351, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3e465b69], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.8</a> at Nov 29, 2018 5:48:12 PM</p>
+</div>
+</div>
+</body>
+</html>

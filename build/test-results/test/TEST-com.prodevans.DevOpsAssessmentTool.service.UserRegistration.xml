@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.prodevans.DevOpsAssessmentTool.service.UserRegistration" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-11-29T12:18:11" hostname="Rajanigandhas-MacBook-Air.local" time="0.208">
+  <properties/>
+  <testcase name="saveUser" classname="com.prodevans.DevOpsAssessmentTool.service.UserRegistration" time="0.208"/>
+  <system-out><![CDATA[29-11-2018 17:48:11.767 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.prodevans.DevOpsAssessmentTool.service.UserRegistration], using SpringBootContextLoader
+29-11-2018 17:48:11.768 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.prodevans.DevOpsAssessmentTool.service.UserRegistration]: no resource found for suffixes {-context.xml, Context.groovy}.
+29-11-2018 17:48:11.769 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.prodevans.DevOpsAssessmentTool.service.UserRegistration]: UserRegistration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+29-11-2018 17:48:11.773 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication for test class com.prodevans.DevOpsAssessmentTool.service.UserRegistration
+29-11-2018 17:48:11.776 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+29-11-2018 17:48:11.777 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ec0d597, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@40a11ecc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@64dc084, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6af041e1, org.springframework.test.context.support.DirtiesContextTestExecutionListener@52a45d45, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1a3b6ea3, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@721ac480, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1a8d7c6b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a33440a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2bbc6199, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f269eaa, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7e39c501]
+29-11-2018 17:48:11.794 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.transaction.TransactionContext.startTransaction - Began transaction (1) for test context [DefaultTestContext@4d6b03e6 testClass = UserRegistration, testInstance = com.prodevans.DevOpsAssessmentTool.service.UserRegistration@1587b38e, testMethod = saveUser@UserRegistration, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@455ce7d0 testClass = UserRegistration, locations = '{}', classes = '{class com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67c965bc, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e40fa62, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7a992351, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3e465b69], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@220c7ad5]; rollback [true]
+Hibernate: 
+    select
+        companysiz0_.company_size_id as company_1_6_0_,
+        companysiz0_.size as size2_6_0_ 
+    from
+        company_size companysiz0_ 
+    where
+        companysiz0_.company_size_id=?
+Hibernate: 
+    select
+        country0_.country_id as country_1_7_0_,
+        country0_.country_name as country_2_7_0_ 
+    from
+        country country0_ 
+    where
+        country0_.country_id=?
+Hibernate: 
+    select
+        industryty0_.industry_type_id as industry1_8_0_,
+        industryty0_.industry_name as industry2_8_0_ 
+    from
+        industry_type industryty0_ 
+    where
+        industryty0_.industry_type_id=?
+Hibernate: 
+    insert 
+    into
+        user
+        (company_name, company_size_id, country_id, first_name, industry_type_id, last_name, reset_token, user_email, user_password) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+29-11-2018 17:48:11.999 ?[35m[Test worker]?[0;39m ?[34mINFO ?[0;39m org.springframework.test.context.transaction.TransactionContext.endTransaction - Rolled back transaction for test: [DefaultTestContext@4d6b03e6 testClass = UserRegistration, testInstance = com.prodevans.DevOpsAssessmentTool.service.UserRegistration@1587b38e, testMethod = saveUser@UserRegistration, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@455ce7d0 testClass = UserRegistration, locations = '{}', classes = '{class com.prodevans.DevOpsAssessmentTool.DevOpsAssessmentToolApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@67c965bc, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3e40fa62, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@7a992351, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3e465b69], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -> true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -> true]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
